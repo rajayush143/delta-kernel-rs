@@ -1,5 +1,5 @@
 error[E0277]: `*mut u32` cannot be sent between threads safely
- --> tests/invalid-handle-code/not-send.rs:5:28
+ --> tests/invalid-handle-code/not-send.rs:5:38
   |
 5 | #[handle_descriptor(target=NotSend, mutable=false, sized=true)]
   |                            ^^^^^^^ `*mut u32` cannot be sent between threads safely
